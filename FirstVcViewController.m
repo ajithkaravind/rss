@@ -78,7 +78,7 @@
           
           if([[self.feedsArray objectAtIndex:indexPath.row]objectForKey:@"feedTitle"])
           {
-              //
+              
               cell.lbl.text = [[self.feedsArray objectAtIndex:indexPath.row]objectForKey:@"feedTitle"];
               cell.img.image=[UIImage imageNamed:@"rssfeed.png"];
           }
