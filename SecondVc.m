@@ -42,6 +42,7 @@
 - (void)feedParser:(MWFeedParser *)parser didParseFeedInfo:(MWFeedInfo *)info
 
 {
+    // title passed to a string
    NSLog(@"Parsed Feed Info: “%@”", info.title);
     self.title = info.title;
 }
