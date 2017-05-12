@@ -24,7 +24,7 @@
 {
     [super viewDidLoad];
     
-    self.title=@"RSS Feeds";
+    self.title=@"RSS Feeds..!";
    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemAdd
                                                                                            target:self
                                                                                            action:@selector(refresh)];
